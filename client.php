@@ -15,7 +15,7 @@ class Client {
     }
 
     public function money($amount) {
-        $this->allMoney += $amount;
+        return $this->allMoney += $amount;
     }
 }
 ?>
